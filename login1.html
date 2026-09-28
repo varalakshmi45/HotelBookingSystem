@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <style>
+              *{
+            text-decoration: none;
+        }
+      .navbar{
+                background: black;
+                font-family: calibri;
+                padding-right: 15px;
+                padding-left:15px ;
+              
+            }
+            .navdiv{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo a{
+                font-weight: 600;
+                font-size: 30px;
+                color:#fff;
+            }
+            .l{
+                list-style: none;
+                display :inline-block;
+              
+
+            }
+            .l a{
+                color: #fff;font-size: 18px;font-weight: bold;margin-right: 25px;
+            }
+            .o{
+                color:#fff;
+                margin-left: 50px;
+                position: absolute;
+                top: 15px;
+        
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family:"Poppins",sans-serif;
+            }
+            body{              
+                
+                background: url(https://img.freepik.com/premium-photo/nature-scenaries_1210174-16.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+               
+            }
+            .w{
+                width: 420px;
+                background: transparent;
+                border:2px solid rgba(0,0,0,0.2);
+                color: #fff;
+                border-radius: 10px;
+                padding: 30px 40px;
+                backdrop-filter: blur(20px);
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                margin-left: 35%;
+                margin-top: 20px;
+               
+            }
+            .w h1{
+                font-size: 36px;
+                text-align: center;
+            }
+            .w .input-box{
+
+                width: 100%;
+                height: 50px;
+                margin: 10px 0;
+            }
+            .input-box input{
+                width: 100%;
+                height: 30px;
+                background: transparent;
+                border: none;
+                outline: none;
+                border: 2px solid rgba(255,255,255,0.2);
+                border-radius: 10px;
+                font-size: 16px;
+                color: #fff;
+                padding:5px 5px 5px 5px;
+            }
+            .input-box input::placeholder{
+                color: #fff;
+            }
+            .w .remember{
+                display: flex;
+                justify-content: space-between;
+                font-size: 14.5px;
+                margin: -15px;
+            }
+            .remember label input{
+                accent-color: #fff;
+                margin-right: 3px;
+            }
+            .w .btn{
+                width: 100%;
+                height: 45px;
+                background: #fff;
+                border-radius: 20px;
+                outline: none;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                cursor: pointer;
+                font-size: 16px;
+                color: #333;
+                font-weight: 600;
+                margin: 20px 0 15px;
+            }
+            .label{
+                padding-bottom: -10px;
+
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                line-height: 1.5;
+                font-style: normal;
+
+            }
+            .container{
+                max-width: 1170px;
+                
+                margin: auto;
+            }
+            ul{
+                list-style: none;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .footer{
+                background-color: #24262b;
+                padding: 70px 0;
+
+            }
+            .footer-col{
+              width: 25%;
+              padding: 0 25px;
+
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+            }
+            .footer-col h4::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #e91e63;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px;
+            }
+            .footer-col .social-links a{
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255,255,255,0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;
+            }
+            .footer-col .social-links a:hover{
+                color: #24262b;
+                background-color: #ffffff;
+            }
+            .logo{
+            transition: 1s;
+        }   
+        .logo :hover{
+            transform: scale(1.3);
+
+        }
+        
+            
+        </style>
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><img src="https://t4.ftcdn.net/jpg/04/83/17/69/360_F_483176984_NkRE4YCDBZQnMrOpm7ROQvLgxX6NBG8h.jpg"
+                    width="50px" height="50px"/>
+                    <p class="o">ream Destinations</p>
+                </div>
+             <ul>
+                <li class="l"> <a href="/project2.html">HOME</a></li>
+                <li class="l"> <a href="/rooms.html">ROOMS</a></li>
+                <li class="l"> <a href="/services.html">SERVICES</a></li>
+                <li class="l"> <a href="/login1.html">LOGIN</a></li>
+                <li class="l"> <a href="/register.html">REGISTER</a></li>
+                <li class="l"> <a href="/About us.html">ABOUT US</a></li>
+    
+             </ul>
+    
+            </div>
+    
+        </nav>
+        
+        <div class="w">
+            <form>
+                <h1>
+                    LOGIN
+                </h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <label class="label">Enter your Mobile Number</label>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" required>
+                </div>
+                <label class="label">Enter your Email </label>
+                <div class="input-box">
+                    <input type="email" placeholder="Email " required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" >Show Password</label>
+
+                </div>
+                <button type="submit" class="btn">Login </button>
+            </form>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#">Rooms&Suites</a></li>
+                        <li><a href="#">Amenities</a></li>
+                        <li><a href="#">Dining</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Booking Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &Conditions</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="footer-col">
+                    <h4>Guest Service</h4>
+                    <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>>
+                    
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    
+        
+    </body>
+</html>
